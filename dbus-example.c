@@ -192,7 +192,7 @@ void reply_to_method_call(DBusMessage* msg, DBusConnection* conn)
 {
     DBusMessage* reply;
     DBusMessageIter args;
-    bool stat = true;
+    int stat = 1;
     dbus_uint32_t level = 21614;
     dbus_uint32_t serial = 0;
     char* param = "";
